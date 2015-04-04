@@ -1,0 +1,14 @@
+body{
+	text-align:center;
+}
+
+
+#result{
+	display:block;
+	font-size:2em;
+}
+
+
+#roll-button{
+	margin-top:20px;
+}
