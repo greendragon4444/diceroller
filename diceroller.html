@@ -1,17 +1,21 @@
 <head>
-  <title>diceroller</title>
+    <title>diceroller</title>
 </head>
 
 <body>
-  <h1>D20 Diceroller</h1>
-
-  {{> rollbutton}}
+<h1>D20 Diceroller</h1>
+{{> dicestage}}
+{{> rollbutton}}
 </body>
 
+<template name="dicestage">
+    <div id="result">
+        {{die}}
+    </div>
+</template>
+
 <template name="rollbutton">
-  <div id="result">
-  {{die}}
-  </div>
-  <button id="roll-button">Roll out</button>
-  
+    <button id="roll-button" class="btn">
+        Roll out
+    </button>
 </template>

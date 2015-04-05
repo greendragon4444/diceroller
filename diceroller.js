@@ -2,7 +2,7 @@ if (Meteor.isClient) {
   // die starts at 0
   Session.setDefault('die', 0);
 
-  Template.rollbutton.helpers({
+  Template.dicestage.helpers({
     die: function () {
       return Session.get('die');
     }
