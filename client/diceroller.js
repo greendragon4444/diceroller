@@ -9,7 +9,7 @@ Template.dicestage.helpers({
 
 Template.rollbutton.events({
     'click button': function () {
-        var die = Math.floor((Math.random() * 20) + 1)
+        var die = Math.floor((Math.random() * 20) + 1);
         Session.set('die', die);
     }
 });

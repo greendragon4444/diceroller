@@ -4,8 +4,12 @@ body{
 
 
 #result{
+    width: 10%;
+    background-color: #F3F3F3;
+    padding: 10px;
 	display:block;
 	font-size:2em;
+    margin: 0 auto;
 }
 
 
